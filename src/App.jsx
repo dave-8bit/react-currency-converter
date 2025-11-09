@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
 import CurrencyInput from './CurrencyInput.jsx';
 import './App.css'; 
-
-const API_KEY = '79ba69bee2c47cae6a828956'; 
-const API_BASE = 'https://v6.exchange-api.com/v6'; 
-
+const API_KEY = import.meta.env.VITE_API_KEY; 
+const API_BASE = import.meta.env.VITE_API_BASE;
 function App() {
   const [amount1, setAmount1] = useState(100);
   const [amount2, setAmount2] = useState(0);
