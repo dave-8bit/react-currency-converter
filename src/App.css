@@ -1,0 +1,90 @@
+body {
+  background-color: #282c34; 
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #61dafb;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group input,
+.input-group select {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+}
+
+.input-group input {
+  width: 200px;
+}
+
+.input-group select {
+  cursor: pointer;
+}
+
+.converter-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.swap-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.equals {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.swap-button {
+  font-size: 1.5rem;
+  padding: 8px 15px;
+  margin: 10px;
+  border: 2px solid #61dafb;
+  background-color: transparent;
+  color: #61dafb;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.swap-button:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+}
+
+.loading-message {
+  font-size: 1.5rem;
+  color: #f7b731; 
+  padding: 50px 0;
+}
+
+.rate-info {
+  font-size: 1.1rem;
+  color: #a8a8a8;
+  margin-top: 20px;
+}
